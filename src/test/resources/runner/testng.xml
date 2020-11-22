@@ -13,6 +13,15 @@
 			<class name="testcasesReallyCRM.LoginTestReallyCRM" />
 		</classes>
 	</test>
+	<test name="Really Simple CRM Add Contact Test">
+		<classes>
+			<class name="testcasesReallyCRM.CreateContactTestReallyCRM" />
+		</classes>
+	</test>
+	
+	
+	
+	
 	<test name="Really Simple CRM Add Account Test">
 		<classes>
 			<class name="testcasesReallyCRM.AddAccountTestRCRM" />

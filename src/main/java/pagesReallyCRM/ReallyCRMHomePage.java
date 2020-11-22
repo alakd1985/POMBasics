@@ -9,8 +9,9 @@ public class ReallyCRMHomePage extends Page {
 		return new AccountsHomePage();
 	}
 
-	public void gotoZOhoEdu() {
-
+	public ContactsHomePage gotoContactsPage() {
+		click("contactsLink_xpath");
+		return new ContactsHomePage();
 	}
 
 	public void validateFooterLinks() {

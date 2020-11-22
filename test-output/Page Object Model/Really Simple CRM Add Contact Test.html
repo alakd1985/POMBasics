@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Really Simple CRM Add Account Test</title>
+<title>TestNG:  Really Simple CRM Add Contact Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Really Simple CRM Add Account Test</h2><table border='1' align="center">
+<h2 align='center'>Really Simple CRM Add Contact Test</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 22 15:02:46 EST 2020</td>
+<td>Started on:</td><td>Sun Nov 22 15:02:44 EST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4183 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2471 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,33 +75,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcasesReallyCRM.AddAccountTestRCRM.addaccountTestRCRM()'><b>addaccountTestRCRM</b><br>Test class: testcasesReallyCRM.AddAccountTestRCRM<br>Parameters: {state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord=Banking, phone=23456.0, address=duke st}</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=#form_input_contactaddresszip
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-TA3D90D&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<td title='testcasesReallyCRM.CreateContactTestReallyCRM.createcontactTestReallyCRM()'><b>createcontactTestReallyCRM</b><br>Test class: testcasesReallyCRM.CreateContactTestReallyCRM<br>Parameters: {country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, phone=12345.0, email=a@gmail.com, first =toma, localaddress=beula st, title=Mr, last=dutta, cell=4567.0, middle=kanti}</td>
+<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
 	at base.Page.type(Page.java:167)
-	at pagesReallyCRM.AddAccountpage.createAccount(AddAccountpage.java:10)
-	at testcasesReallyCRM.AddAccountTestRCRM.addaccountTestRCRM(AddAccountTestRCRM.java:19)
+	at pagesReallyCRM.CreateContactReallyCRM.createContact(CreateContactReallyCRM.java:9)
+	at testcasesReallyCRM.CreateContactTestReallyCRM.createcontactTestReallyCRM(CreateContactTestReallyCRM.java:18)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace827328832", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace827328832'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=#form_input_contactaddresszip
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-TA3D90D&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace214320652", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace214320652'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
 	at base.Page.type(Page.java:167)
-	at pagesReallyCRM.AddAccountpage.createAccount(AddAccountpage.java:10)
-	at testcasesReallyCRM.AddAccountTestRCRM.addaccountTestRCRM(AddAccountTestRCRM.java:19)
+	at pagesReallyCRM.CreateContactReallyCRM.createContact(CreateContactReallyCRM.java:9)
+	at testcasesReallyCRM.CreateContactTestReallyCRM.createcontactTestReallyCRM(CreateContactTestReallyCRM.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,8 +117,8 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>4</td>
-<td>testcasesReallyCRM.AddAccountTestRCRM@2353b3e6</td></tr>
+<td>2</td>
+<td>testcasesReallyCRM.CreateContactTestReallyCRM@4d50efb8</td></tr>
 </table><p>
 </body>
 </html>

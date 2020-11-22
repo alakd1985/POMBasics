@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Page_Object_Model">
-              <span class="suite-name border-passed">Page Object Model</span>
+              <span class="suite-name border-failed">Page Object Model</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Page_Object_Model">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Page_Object_Model" class="hide-methods failed suite-Page_Object_Model"> (hide)</a> <!-- hide-methods failed suite-Page_Object_Model -->
+                      <a href="#" panel-name="suite-Page_Object_Model" class="show-methods failed suite-Page_Object_Model"> (show)</a> <!-- show-methods failed suite-Page_Object_Model -->
+                    </span>
+                    <div class="method-list-content failed suite-Page_Object_Model">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="testcasesReallyCRM.AddAccountTestRCRM" hash-for-method="addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...)">addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="testcasesReallyCRM.CreateContactTestReallyCRM" hash-for-method="createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...)">createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Page_Object_Model -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +121,6 @@
                       <a href="#" panel-name="suite-Page_Object_Model" class="show-methods passed suite-Page_Object_Model"> (show)</a> <!-- show-methods passed suite-Page_Object_Model -->
                     </span>
                     <div class="method-list-content passed suite-Page_Object_Model">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="testcasesReallyCRM.AddAccountTestRCRM" hash-for-method="addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...)">addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="testcasesReallyCRM.LoginTestReallyCRM" hash-for-method="loginTestReallyCRM({pass=Toma*1996, runmode=Y, id=leoalak@gmail.com})">loginTestReallyCRM({pass=Toma*1996, runmode=Y, id=leoalak@gmail.com})</a> <!-- method navigator-link -->
@@ -124,9 +138,33 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Page_Object_Model" class="panel Page_Object_Model">
-          <div class="suite-Page_Object_Model-class-passed">
+          <div class="suite-Page_Object_Model-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">testcasesReallyCRM.CreateContactTestReallyCRM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...)">
+                  </a> <!-- createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...) -->
+                  <span class="method-name">createcontactTestReallyCRM</span>
+                  <span class="parameters">({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, phone=12345.0, email=a@gmail.com, first =toma, localaddress=beula st, title=Mr, last=dutta, cell=4567.0, middle=kanti})</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at base.Page.type(Page.java:167)
+	at pagesReallyCRM.CreateContactReallyCRM.createContact(CreateContactReallyCRM.java:9)
+	at testcasesReallyCRM.CreateContactTestReallyCRM.createcontactTestReallyCRM(CreateContactTestReallyCRM.java:18)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Page_Object_Model-class-failed -->
+          <div class="suite-Page_Object_Model-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">testcasesReallyCRM.AddAccountTestRCRM</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -136,10 +174,25 @@
                   </a> <!-- addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...) -->
                   <span class="method-name">addaccountTestRCRM</span>
                   <span class="parameters">({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord=Banking, phone=23456.0, address=duke st})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=#form_input_contactaddresszip
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-TA3D90D&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at base.Page.type(Page.java:167)
+	at pagesReallyCRM.AddAccountpage.createAccount(AddAccountpage.java:10)
+	at testcasesReallyCRM.AddAccountTestRCRM.addaccountTestRCRM(AddAccountTestRCRM.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Page_Object_Model-class-passed -->
+          </div> <!-- suite-Page_Object_Model-class-failed -->
           <div class="suite-Page_Object_Model-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -171,6 +224,11 @@
       &lt;class name=&quot;testcasesReallyCRM.LoginTestReallyCRM&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Really Simple CRM Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Really Simple CRM Add Contact Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcasesReallyCRM.CreateContactTestReallyCRM&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Really Simple CRM Add Contact Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Really Simple CRM Add Account Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcasesReallyCRM.AddAccountTestRCRM&quot;/&gt;
@@ -188,6 +246,9 @@
             <ul>
               <li>
                 <span class="test-name">Really Simple CRM Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Really Simple CRM Add Contact Test (1 class)</span>
               </li>
               <li>
                 <span class="test-name">Really Simple CRM Add Account Test (1 class)</span>
@@ -216,20 +277,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addaccountTestRCRM')
 data.setCell(0, 2, 'testcasesReallyCRM.AddAccountTestRCRM')
-data.setCell(0, 3, 3602);
+data.setCell(0, 3, 4173);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTestReallyCRM')
 data.setCell(1, 2, 'testcasesReallyCRM.LoginTestReallyCRM')
-data.setCell(1, 3, 3039);
+data.setCell(1, 3, 2800);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createcontactTestReallyCRM')
+data.setCell(2, 2, 'testcasesReallyCRM.CreateContactTestReallyCRM')
+data.setCell(2, 3, 2446);
 window.suiteTableData['Page_Object_Model']= { tableData: data, tableDiv: 'times-div-Page_Object_Model'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Page_Object_Model">
               </div> <!-- times-div-Page_Object_Model -->
             </div> <!-- times-div -->
@@ -262,10 +327,21 @@ return data;
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">testcasesReallyCRM.CreateContactTestReallyCRM</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...)</span>
+                <span class="method-start">2867 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">testcasesReallyCRM.AddAccountTestRCRM</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...)</span>
-                <span class="method-start">3114 ms</span>
+                <span class="method-start">5368 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
