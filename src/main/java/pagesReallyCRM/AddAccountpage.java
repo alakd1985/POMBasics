@@ -14,6 +14,7 @@ public class AddAccountpage extends Page {
 		type("phone_css", phonenumber);
 		select("type_xpath", type);
 		select("sector_xpath", sector);
+		click("saveBtn_css");
 
 	}
 }

@@ -13,20 +13,23 @@
 			<class name="testcasesReallyCRM.LoginTestReallyCRM" />
 		</classes>
 	</test>
-	<test name="Really Simple CRM Add Contact Test">
+	<!-- <test name="Really Simple CRM Add Contact Test">
 		<classes>
-			<class name="testcasesReallyCRM.CreateContactTestReallyCRM" />
+			<class name="testcasesReallyCRM.CreateContactTestRCRM" />
 		</classes>
-	</test>
-	
-	
-	
-	
+	</test> -->
 	<test name="Really Simple CRM Add Account Test">
 		<classes>
 			<class name="testcasesReallyCRM.AddAccountTestRCRM" />
 		</classes>
 	</test>
+		<test name="Really Simple CRM Add Opportunity Test">
+		<classes>
+			<class name="testcasesReallyCRM.OpportunityTestRCRM" />
+		</classes>
+	</test>
+	
+	
 	<!-- <test name="Login Test"> <classes> <class name="testcases.LoginTest" 
 		/> </classes> </test> <test name="Create Account Test"> <classes> <class 
 		name="testcases.CreateAccountTest" /> </classes> </test> -->

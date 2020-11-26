@@ -1,6 +1,7 @@
 package testcasesReallyCRM;
 
 import java.util.Hashtable;
+import java.util.Random;
 
 import org.testng.annotations.Test;
 
@@ -16,8 +17,10 @@ public class AddAccountTestRCRM {
 		ReallyCRMHomePage rehomepage = new ReallyCRMHomePage();
 		AccountsHomePage aHomepage = rehomepage.gotoAcocuntsHomePage();
 		AddAccountpage addAccount = aHomepage.gotoAddAccountpage();
-		addAccount.createAccount(data.get("name"), data.get("address"), data.get("zip"), data.get("city"),
-				data.get("state"), data.get("website"), data.get("phone"), data.get("typed"), data.get("sectord"));
+		addAccount.createAccount(data.get("name") + new Random(), data.get("address"), data.get("zip"),
+				data.get("city"), data.get("state"), data.get("website"), data.get("phone"), data.get("typed"),
+				data.get("sectord"));
+
 	}
 
 }

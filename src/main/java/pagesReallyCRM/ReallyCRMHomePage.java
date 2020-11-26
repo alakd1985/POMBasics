@@ -14,8 +14,9 @@ public class ReallyCRMHomePage extends Page {
 		return new ContactsHomePage();
 	}
 
-	public void validateFooterLinks() {
-
+	public OpportunitiesHomePage gotoOpportunities() {
+		click("opportunitiesLink_xpath");
+		return new OpportunitiesHomePage();
 	}
 
 }

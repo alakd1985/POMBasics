@@ -9,36 +9,55 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Page Object Model</th></tr>
-<tr><td><a href="#t0">Really Simple CRM Login Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,189</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Really Simple CRM Add Contact Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,471</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Really Simple CRM Add Account Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">4,183</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">17,843</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Really Simple CRM Login Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,810</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Really Simple CRM Add Account Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">4,035</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Really Simple CRM Add Opportunity Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">1,166</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">17,011</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Page Object Model</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Really Simple CRM Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcasesReallyCRM.LoginTestReallyCRM</td><td><a href="#m0">loginTestReallyCRM</a></td><td rowspan="1">1606075361189</td><td rowspan="1">2800</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Really Simple CRM Add Contact Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcasesReallyCRM.CreateContactTestReallyCRM</td><td><a href="#m1">createcontactTestReallyCRM</a></td><td rowspan="1">1606075364056</td><td rowspan="1">2446</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Really Simple CRM Add Account Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcasesReallyCRM.AddAccountTestRCRM</td><td><a href="#m2">addaccountTestRCRM</a></td><td rowspan="1">1606075366557</td><td rowspan="1">4173</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Page Object Model</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Really Simple CRM Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcasesReallyCRM.LoginTestReallyCRM</td><td><a href="#m0">loginTestReallyCRM</a></td><td rowspan="1">1606429888401</td><td rowspan="1">3080</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Really Simple CRM Add Account Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcasesReallyCRM.AddAccountTestRCRM</td><td><a href="#m1">addaccountTestRCRM</a></td><td rowspan="1">1606429891548</td><td rowspan="1">4015</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Really Simple CRM Add Opportunity Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcasesReallyCRM.OpportunityTestRCRM</td><td><a href="#m2">opportunityTestRCRM</a></td><td rowspan="1">1606429895594</td><td rowspan="1">1149</td></tr></tbody>
 </table>
 <h2>Really Simple CRM Login Test</h2><h3 id="m0">testcasesReallyCRM.LoginTestReallyCRM#loginTestReallyCRM</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{pass=Toma*1996, runmode=Y, id=leoalak@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Really Simple CRM Add Contact Test</h2><h3 id="m1">testcasesReallyCRM.CreateContactTestReallyCRM#createcontactTestReallyCRM</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, phone=12345.0, email=a@gmail.com, first =toma, localaddress=beula st, title=Mr, last=dutta, cell=4567.0, middle=kanti}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-	at base.Page.type(Page.java:167)
-	at pagesReallyCRM.CreateContactReallyCRM.createContact(CreateContactReallyCRM.java:9)
-	at testcasesReallyCRM.CreateContactTestReallyCRM.createcontactTestReallyCRM(CreateContactTestReallyCRM.java:18)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Really Simple CRM Add Account Test</h2><h3 id="m2">testcasesReallyCRM.AddAccountTestRCRM#addaccountTestRCRM</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord=Banking, phone=23456.0, address=duke st}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=#form_input_contactaddresszip
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<h2>Really Simple CRM Add Account Test</h2><h3 id="m1">testcasesReallyCRM.AddAccountTestRCRM#addaccountTestRCRM</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=Virginia, name=Lucky2, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord=Banking, phone=23456.0, address=duke st}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=86.0.4240.198)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-TA3D90D&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aafc5ecad34b55f786e6e38df9ad7ef7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
 	at base.Page.type(Page.java:167)
-	at pagesReallyCRM.AddAccountpage.createAccount(AddAccountpage.java:10)
-	at testcasesReallyCRM.AddAccountTestRCRM.addaccountTestRCRM(AddAccountTestRCRM.java:19)
+	at pagesReallyCRM.AddAccountpage.createAccount(AddAccountpage.java:14)
+	at testcasesReallyCRM.AddAccountTestRCRM.addaccountTestRCRM(AddAccountTestRCRM.java:20)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Really Simple CRM Add Opportunity Test</h2><h3 id="m2">testcasesReallyCRM.OpportunityTestRCRM#opportunityTestRCRM</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{nxtStep=None, acname=toma, competitor=None, oppName=None}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (87, 268). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;record_duplicates_modal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;record_duplicates_modal_label&quot; data-backdrop=&quot;static&quot; data-keyboard=&quot;false&quot; style=&quot;display: block; padding-right: 17px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=86.0.4240.198)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-TA3D90D&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aafc5ecad34b55f786e6e38df9ad7ef7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at base.Page.click(Page.java:118)
+	at pagesReallyCRM.ReallyCRMHomePage.gotoOpportunities(ReallyCRMHomePage.java:18)
+	at testcasesReallyCRM.OpportunityTestRCRM.opportunityTestRCRM(OpportunityTestRCRM.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

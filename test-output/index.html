@@ -104,12 +104,12 @@
                     <div class="method-list-content failed suite-Page_Object_Model">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="testcasesReallyCRM.AddAccountTestRCRM" hash-for-method="addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...)">addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="testcasesReallyCRM.AddAccountTestRCRM" hash-for-method="addaccountTestRCRM({state=Virginia, name=Lucky2, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, secto...)">addaccountTestRCRM({state=Virginia, name=Lucky2, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, secto...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="testcasesReallyCRM.CreateContactTestReallyCRM" hash-for-method="createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...)">createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="testcasesReallyCRM.OpportunityTestRCRM" hash-for-method="opportunityTestRCRM({nxtStep=None, acname=toma, competitor=None, oppName=None})">opportunityTestRCRM({nxtStep=None, acname=toma, competitor=None, oppName=None})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Page_Object_Model -->
@@ -141,22 +141,35 @@
           <div class="suite-Page_Object_Model-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testcasesReallyCRM.CreateContactTestReallyCRM</span>
+              <span class="class-name">testcasesReallyCRM.AddAccountTestRCRM</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...)">
-                  </a> <!-- createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...) -->
-                  <span class="method-name">createcontactTestReallyCRM</span>
-                  <span class="parameters">({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, phone=12345.0, email=a@gmail.com, first =toma, localaddress=beula st, title=Mr, last=dutta, cell=4567.0, middle=kanti})</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+                  <a name="addaccountTestRCRM({state=Virginia, name=Lucky2, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, secto...)">
+                  </a> <!-- addaccountTestRCRM({state=Virginia, name=Lucky2, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, secto...) -->
+                  <span class="method-name">addaccountTestRCRM</span>
+                  <span class="parameters">({state=Virginia, name=Lucky2, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord=Banking, phone=23456.0, address=duke st})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=86.0.4240.198)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-TA3D90D&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aafc5ecad34b55f786e6e38df9ad7ef7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
 	at base.Page.type(Page.java:167)
-	at pagesReallyCRM.CreateContactReallyCRM.createContact(CreateContactReallyCRM.java:9)
-	at testcasesReallyCRM.CreateContactTestReallyCRM.createcontactTestReallyCRM(CreateContactTestReallyCRM.java:18)
+	at pagesReallyCRM.AddAccountpage.createAccount(AddAccountpage.java:14)
+	at testcasesReallyCRM.AddAccountTestRCRM.addaccountTestRCRM(AddAccountTestRCRM.java:20)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -165,29 +178,35 @@
           <div class="suite-Page_Object_Model-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testcasesReallyCRM.AddAccountTestRCRM</span>
+              <span class="class-name">testcasesReallyCRM.OpportunityTestRCRM</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...)">
-                  </a> <!-- addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...) -->
-                  <span class="method-name">addaccountTestRCRM</span>
-                  <span class="parameters">({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord=Banking, phone=23456.0, address=duke st})</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=#form_input_contactaddresszip
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                  <a name="opportunityTestRCRM({nxtStep=None, acname=toma, competitor=None, oppName=None})">
+                  </a> <!-- opportunityTestRCRM({nxtStep=None, acname=toma, competitor=None, oppName=None}) -->
+                  <span class="method-name">opportunityTestRCRM</span>
+                  <span class="parameters">({nxtStep=None, acname=toma, competitor=None, oppName=None})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (87, 268). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;record_duplicates_modal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;record_duplicates_modal_label&quot; data-backdrop=&quot;static&quot; data-keyboard=&quot;false&quot; style=&quot;display: block; padding-right: 17px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=86.0.4240.198)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-TA3D90D&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.Page.type(Page.java:167)
-	at pagesReallyCRM.AddAccountpage.createAccount(AddAccountpage.java:10)
-	at testcasesReallyCRM.AddAccountTestRCRM.addaccountTestRCRM(AddAccountTestRCRM.java:19)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aafc5ecad34b55f786e6e38df9ad7ef7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at base.Page.click(Page.java:118)
+	at pagesReallyCRM.ReallyCRMHomePage.gotoOpportunities(ReallyCRMHomePage.java:18)
+	at testcasesReallyCRM.OpportunityTestRCRM.opportunityTestRCRM(OpportunityTestRCRM.java:17)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -224,16 +243,16 @@ Driver info: driver.version: RemoteWebDriver
       &lt;class name=&quot;testcasesReallyCRM.LoginTestReallyCRM&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Really Simple CRM Login Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Really Simple CRM Add Contact Test&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testcasesReallyCRM.CreateContactTestReallyCRM&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Really Simple CRM Add Contact Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Really Simple CRM Add Account Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcasesReallyCRM.AddAccountTestRCRM&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Really Simple CRM Add Account Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Really Simple CRM Add Opportunity Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcasesReallyCRM.OpportunityTestRCRM&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Really Simple CRM Add Opportunity Test --&gt;
 &lt;/suite&gt; &lt;!-- Page Object Model --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -248,10 +267,10 @@ Driver info: driver.version: RemoteWebDriver
                 <span class="test-name">Really Simple CRM Login Test (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Really Simple CRM Add Contact Test (1 class)</span>
+                <span class="test-name">Really Simple CRM Add Account Test (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Really Simple CRM Add Account Test (1 class)</span>
+                <span class="test-name">Really Simple CRM Add Opportunity Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -281,20 +300,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addaccountTestRCRM')
 data.setCell(0, 2, 'testcasesReallyCRM.AddAccountTestRCRM')
-data.setCell(0, 3, 4173);
+data.setCell(0, 3, 4015);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTestReallyCRM')
 data.setCell(1, 2, 'testcasesReallyCRM.LoginTestReallyCRM')
-data.setCell(1, 3, 2800);
+data.setCell(1, 3, 3080);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createcontactTestReallyCRM')
-data.setCell(2, 2, 'testcasesReallyCRM.CreateContactTestReallyCRM')
-data.setCell(2, 3, 2446);
+data.setCell(2, 1, 'opportunityTestRCRM')
+data.setCell(2, 2, 'testcasesReallyCRM.OpportunityTestRCRM')
+data.setCell(2, 3, 1149);
 window.suiteTableData['Page_Object_Model']= { tableData: data, tableDiv: 'times-div-Page_Object_Model'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Page_Object_Model">
               </div> <!-- times-div-Page_Object_Model -->
             </div> <!-- times-div -->
@@ -327,21 +346,21 @@ return data;
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcasesReallyCRM.CreateContactTestReallyCRM</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">createcontactTestReallyCRM({country=Congo, localcity=new york, manager=Self, assistant=John, localzip=22345.0, other=6544.0, ph...)</span>
-                <span class="method-start">2867 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">testcasesReallyCRM.AddAccountTestRCRM</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">addaccountTestRCRM({state=Virginia, name=Alak, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, sectord...)</span>
-                <span class="method-start">5368 ms</span>
+                <span class="method-name">addaccountTestRCRM({state=Virginia, name=Lucky2, website=www.gmail.com, zip=2345.0, typed=Press, city=Alexandria, secto...)</span>
+                <span class="method-start">3147 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcasesReallyCRM.OpportunityTestRCRM</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">opportunityTestRCRM({nxtStep=None, acname=toma, competitor=None, oppName=None})</span>
+                <span class="method-start">7193 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
