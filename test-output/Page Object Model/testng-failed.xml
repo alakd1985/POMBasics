@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object Model]">
-  <test thread-count="5" name="Really Simple CRM Add Account Test(failed)">
+  <test thread-count="5" name="Flow lu CRM Add Opportunity Test(failed)">
     <classes>
-      <class name="testcasesReallyCRM.AddAccountTestRCRM">
+      <class name="FlowLuCRMTestCases.AddOpportunityTestFlow">
         <methods>
-          <include name="addaccountTestRCRM" invocation-numbers="0"/>
+          <include name="addopportunityTestFlow"/>
         </methods>
-      </class> <!-- testcasesReallyCRM.AddAccountTestRCRM -->
+      </class> <!-- FlowLuCRMTestCases.AddOpportunityTestFlow -->
     </classes>
-  </test> <!-- Really Simple CRM Add Account Test(failed) -->
-  <test thread-count="5" name="Really Simple CRM Add Opportunity Test(failed)">
-    <classes>
-      <class name="testcasesReallyCRM.OpportunityTestRCRM">
-        <methods>
-          <include name="opportunityTestRCRM" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testcasesReallyCRM.OpportunityTestRCRM -->
-    </classes>
-  </test> <!-- Really Simple CRM Add Opportunity Test(failed) -->
+  </test> <!-- Flow lu CRM Add Opportunity Test(failed) -->
 </suite> <!-- Failed suite [Page Object Model] -->
