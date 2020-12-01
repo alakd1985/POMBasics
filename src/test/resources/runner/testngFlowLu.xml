@@ -15,4 +15,12 @@
 			<class name="FlowLuCRMTestCases.AddOpportunityTestFlow" />
 		</classes>
 	</test>
+	
+	<test name="Flow lu CRM Add Organization Test">
+		<classes>
+			<class name="FlowLuCRMTestCases.AddOrganizationTestFlow" />
+		</classes>
+	</test>
+	
+	
 </suite> <!-- Suite -->

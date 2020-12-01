@@ -93,8 +93,20 @@ public class Page {
 					options.addArguments("--disable-extensions");
 
 					options.addArguments("--disable-infobars");
-
 					driver = new ChromeDriver(options);
+
+					/*
+					 * DesiredCapabilities capability = DesiredCapabilities.chrome();
+					 * capability.setBrowserName("chrome");
+					 * 
+					 * capability.setPlatform(Platform.LINUX);
+					 * 
+					 * try { driver = new RemoteWebDriver(new
+					 * URL("http://192.168.0.10:4444/wd/hub"), capability); } catch
+					 * (MalformedURLException e) { // TODO Auto-generated catch block
+					 * e.printStackTrace(); }
+					 */
+
 					log.debug("chrome file loaded!!!");
 				}
 
@@ -200,6 +212,14 @@ public class Page {
 
 	public static void quit() {
 		driver.quit();
+	}
+
+	public static void al() {
+		driver.switchTo().alert().accept();
+	}
+
+	public static void refresh() {
+		driver.navigate().refresh();
 	}
 
 	public boolean isElementPresent(By by) {

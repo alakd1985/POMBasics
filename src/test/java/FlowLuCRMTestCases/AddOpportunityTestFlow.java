@@ -18,4 +18,5 @@ public class AddOpportunityTestFlow {
 		addOflow.createOpportunity(data.get("title"), data.get("amount"), data.get("source"), data.get("email"),
 				data.get("phone"), data.get("website"), data.get("oraganization"), data.get("contactperson"));
 	}
+
 }

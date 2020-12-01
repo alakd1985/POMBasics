@@ -7,4 +7,10 @@ public class FlowHomePage extends Page {
 		click("flowLuCRM_xpath");
 		return new FlowOpportunitiesPage();
 	}
+
+	public OrganizationHomePage gotoOrganization() {
+
+		click("organization_xpath");
+		return new OrganizationHomePage();
+	}
 }

@@ -15,6 +15,11 @@ public class AddOpportunityFlowPage extends Page {
 		type("opporganization_xpath", opporganization);
 		type("oppperson_xpath", oppcontactperson);
 		click("oppsaveBtn_xpath");
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		click("closeBtn_xpath");
 	}
 }
-//, String addressline, String zipcode, String state, String city,String websiteaddress, String phonenumber, String type, String sector

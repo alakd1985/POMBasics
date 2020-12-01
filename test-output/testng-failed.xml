@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object Model]">
-  <test thread-count="5" name="Flow lu CRM Add Opportunity Test(failed)">
+  <test thread-count="5" name="Flow lu CRM Add Organization Test(failed)">
     <classes>
-      <class name="FlowLuCRMTestCases.AddOpportunityTestFlow">
+      <class name="FlowLuCRMTestCases.AddOrganizationTestFlow">
         <methods>
-          <include name="addopportunityTestFlow"/>
+          <include name="addorganizationTestFlow" invocation-numbers="0"/>
         </methods>
-      </class> <!-- FlowLuCRMTestCases.AddOpportunityTestFlow -->
+      </class> <!-- FlowLuCRMTestCases.AddOrganizationTestFlow -->
     </classes>
-  </test> <!-- Flow lu CRM Add Opportunity Test(failed) -->
+  </test> <!-- Flow lu CRM Add Organization Test(failed) -->
 </suite> <!-- Failed suite [Page Object Model] -->
