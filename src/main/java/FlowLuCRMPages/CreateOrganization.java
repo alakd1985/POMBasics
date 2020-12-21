@@ -4,7 +4,8 @@ import base.Page;
 
 public class CreateOrganization extends Page {
 
-	public void createOrganization(String oragaName, String cell, String email, String title, String website) {
+	public void createOrganization(String oragaName, String cell, String email, String title, String website)
+			throws InterruptedException {
 		type("organizationName_xpath", oragaName);
 
 		type("email_xpath", email);
@@ -12,6 +13,8 @@ public class CreateOrganization extends Page {
 
 		type("phone_name", cell);
 		type("web_name", website);
+		click("saveBtn_xpath");
+		Thread.sleep(2000);
 
 		/*
 		 * type("oppAmountflow_xpath", oppamount);

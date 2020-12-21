@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Page_Object_Model">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-Page_Object_Model" class="show-methods passed suite-Page_Object_Model"> (show)</a> <!-- show-methods passed suite-Page_Object_Model -->
                     </span>
                     <div class="method-list-content passed suite-Page_Object_Model">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="FlowLuCRMTestCases.AddNewContactTest" hash-for-method="addNewContactTest({name=Om})">addNewContactTest({name=Om})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model" title="FlowLuCRMTestCases.AddOpportunityTestFlow" hash-for-method="addopportunityTestFlow({oraganization=iskcon, phone=900000.0, website=www.google.com, email=a@gmail.com, amount=100.0, cont...)">addopportunityTestFlow({oraganization=iskcon, phone=900000.0, website=www.google.com, email=a@gmail.com, amount=100.0, cont...)</a> <!-- method navigator-link -->
@@ -129,6 +134,22 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Page_Object_Model" class="panel Page_Object_Model">
+          <div class="suite-Page_Object_Model-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">FlowLuCRMTestCases.AddNewContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewContactTest({name=Om})">
+                  </a> <!-- addNewContactTest({name=Om}) -->
+                  <span class="method-name">addNewContactTest</span>
+                  <span class="parameters">({name=Om})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Page_Object_Model-class-passed -->
           <div class="suite-Page_Object_Model-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -202,6 +223,11 @@
       &lt;class name=&quot;FlowLuCRMTestCases.AddOrganizationTestFlow&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Flow lu CRM Add Organization Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Flow lu CRM Add Contact Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;FlowLuCRMTestCases.AddNewContactTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flow lu CRM Add Contact Test --&gt;
 &lt;/suite&gt; &lt;!-- Page Object Model --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,6 +246,9 @@
               </li>
               <li>
                 <span class="test-name">Flow lu CRM Add Organization Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Flow lu CRM Add Contact Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,24 +274,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addopportunityTestFlow')
 data.setCell(0, 2, 'FlowLuCRMTestCases.AddOpportunityTestFlow')
-data.setCell(0, 3, 7738);
+data.setCell(0, 3, 7239);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'logintestFlow')
 data.setCell(1, 2, 'FlowLuCRMTestCases.LoginTestFlow')
-data.setCell(1, 3, 7437);
+data.setCell(1, 3, 7138);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'addorganizationTestFlow')
 data.setCell(2, 2, 'FlowLuCRMTestCases.AddOrganizationTestFlow')
-data.setCell(2, 3, 2918);
+data.setCell(2, 3, 5463);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addNewContactTest')
+data.setCell(3, 2, 'FlowLuCRMTestCases.AddNewContactTest')
+data.setCell(3, 3, 1660);
 window.suiteTableData['Page_Object_Model']= { tableData: data, tableDiv: 'times-div-Page_Object_Model'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Page_Object_Model">
               </div> <!-- times-div-Page_Object_Model -->
             </div> <!-- times-div -->
@@ -298,14 +331,21 @@ return data;
               <div class="chronological-class-name">FlowLuCRMTestCases.AddOpportunityTestFlow</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addopportunityTestFlow({oraganization=iskcon, phone=900000.0, website=www.google.com, email=a@gmail.com, amount=100.0, cont...)</span>
-                <span class="method-start">7519 ms</span>
+                <span class="method-start">7240 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">FlowLuCRMTestCases.AddOrganizationTestFlow</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addorganizationTestFlow({jobtitle=Automation Test Engineer, web=www.google.com, phone=666777.0, email=A@gmail.com, organname...)</span>
-                <span class="method-start">15295 ms</span>
+                <span class="method-start">14504 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FlowLuCRMTestCases.AddNewContactTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addNewContactTest({name=Om})</span>
+                <span class="method-start">20011 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

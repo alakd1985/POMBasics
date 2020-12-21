@@ -22,5 +22,11 @@
 		</classes>
 	</test>
 	
+	<test name="Flow lu CRM Add Contact Test">
+		<classes>
+			<class name="FlowLuCRMTestCases.AddNewContactTest" />
+		</classes>
+	</test>
+	
 	
 </suite> <!-- Suite -->

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object Model" duration-ms="28545" started-at="2020-11-30T19:10:15 EST" finished-at="2020-11-30T19:10:43 EST">
+  <suite name="Page Object Model" duration-ms="33324" started-at="2020-12-21T15:27:47 EST" finished-at="2020-12-21T15:28:20 EST">
     <groups>
     </groups>
-    <test name="Flow lu CRM Login Test" duration-ms="17775" started-at="2020-11-30T19:10:15 EST" finished-at="2020-11-30T19:10:33 EST">
+    <test name="Flow lu CRM Login Test" duration-ms="18797" started-at="2020-12-21T15:27:47 EST" finished-at="2020-12-21T15:28:06 EST">
       <class name="FlowLuCRMTestCases.LoginTestFlow">
-        <test-method status="PASS" signature="logintestFlow(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.LoginTestFlow@2d8f65a4]" name="logintestFlow" duration-ms="7437" started-at="2020-11-30T19:10:25 EST" data-provider="dp" finished-at="2020-11-30T19:10:33 EST">
+        <test-method status="PASS" signature="logintestFlow(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.LoginTestFlow@2d8f65a4]" name="logintestFlow" duration-ms="7138" started-at="2020-12-21T15:27:59 EST" data-provider="dp" finished-at="2020-12-21T15:28:06 EST">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- logintestFlow -->
       </class> <!-- FlowLuCRMTestCases.LoginTestFlow -->
     </test> <!-- Flow lu CRM Login Test -->
-    <test name="Flow lu CRM Add Opportunity Test" duration-ms="7757" started-at="2020-11-30T19:10:33 EST" finished-at="2020-11-30T19:10:40 EST">
+    <test name="Flow lu CRM Add Opportunity Test" duration-ms="7258" started-at="2020-12-21T15:28:06 EST" finished-at="2020-12-21T15:28:13 EST">
       <class name="FlowLuCRMTestCases.AddOpportunityTestFlow">
-        <test-method status="PASS" signature="addopportunityTestFlow(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.AddOpportunityTestFlow@4d50efb8]" name="addopportunityTestFlow" duration-ms="7738" started-at="2020-11-30T19:10:33 EST" data-provider="dp" finished-at="2020-11-30T19:10:40 EST">
+        <test-method status="PASS" signature="addopportunityTestFlow(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.AddOpportunityTestFlow@4d50efb8]" name="addopportunityTestFlow" duration-ms="7239" started-at="2020-12-21T15:28:06 EST" data-provider="dp" finished-at="2020-12-21T15:28:13 EST">
           <params>
             <param index="0">
               <value>
@@ -35,9 +35,9 @@
         </test-method> <!-- addopportunityTestFlow -->
       </class> <!-- FlowLuCRMTestCases.AddOpportunityTestFlow -->
     </test> <!-- Flow lu CRM Add Opportunity Test -->
-    <test name="Flow lu CRM Add Organization Test" duration-ms="2921" started-at="2020-11-30T19:10:40 EST" finished-at="2020-11-30T19:10:43 EST">
+    <test name="Flow lu CRM Add Organization Test" duration-ms="5471" started-at="2020-12-21T15:28:13 EST" finished-at="2020-12-21T15:28:19 EST">
       <class name="FlowLuCRMTestCases.AddOrganizationTestFlow">
-        <test-method status="PASS" signature="addorganizationTestFlow(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.AddOrganizationTestFlow@2353b3e6]" name="addorganizationTestFlow" duration-ms="2918" started-at="2020-11-30T19:10:40 EST" data-provider="dp" finished-at="2020-11-30T19:10:43 EST">
+        <test-method status="PASS" signature="addorganizationTestFlow(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.AddOrganizationTestFlow@2353b3e6]" name="addorganizationTestFlow" duration-ms="5463" started-at="2020-12-21T15:28:13 EST" data-provider="dp" finished-at="2020-12-21T15:28:19 EST">
           <params>
             <param index="0">
               <value>
@@ -50,5 +50,20 @@
         </test-method> <!-- addorganizationTestFlow -->
       </class> <!-- FlowLuCRMTestCases.AddOrganizationTestFlow -->
     </test> <!-- Flow lu CRM Add Organization Test -->
+    <test name="Flow lu CRM Add Contact Test" duration-ms="1664" started-at="2020-12-21T15:28:19 EST" finished-at="2020-12-21T15:28:20 EST">
+      <class name="FlowLuCRMTestCases.AddNewContactTest">
+        <test-method status="PASS" signature="addNewContactTest(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.AddNewContactTest@1a1d6a08]" name="addNewContactTest" duration-ms="1660" started-at="2020-12-21T15:28:19 EST" data-provider="dp" finished-at="2020-12-21T15:28:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Om}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+      </class> <!-- FlowLuCRMTestCases.AddNewContactTest -->
+    </test> <!-- Flow lu CRM Add Contact Test -->
   </suite> <!-- Page Object Model -->
 </testng-results>

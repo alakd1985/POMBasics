@@ -11,7 +11,7 @@ import Utilities.DataUtil;
 
 public class AddOrganizationTestFlow {
 	@Test(dataProviderClass = DataUtil.class, dataProvider = "dp")
-	public void addorganizationTestFlow(Hashtable<String, String> data) {
+	public void addorganizationTestFlow(Hashtable<String, String> data) throws InterruptedException {
 		FlowHomePage fH = new FlowHomePage();
 		OrganizationHomePage fopage = fH.gotoOrganization();
 		CreateOrganization addOflow = fopage.gotoCreateNewOrganization();
@@ -19,4 +19,3 @@ public class AddOrganizationTestFlow {
 				data.get("jobtitle"));
 	}
 }
-//,   ,, , data.get("contactperson")data.get("category"), data.get("industry"),
