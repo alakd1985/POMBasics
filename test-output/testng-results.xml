@@ -1,69 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object Model" duration-ms="33324" started-at="2020-12-21T15:27:47 EST" finished-at="2020-12-21T15:28:20 EST">
+  <suite name="Default suite" duration-ms="60" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
     <groups>
     </groups>
-    <test name="Flow lu CRM Login Test" duration-ms="18797" started-at="2020-12-21T15:27:47 EST" finished-at="2020-12-21T15:28:06 EST">
-      <class name="FlowLuCRMTestCases.LoginTestFlow">
-        <test-method status="PASS" signature="logintestFlow(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.LoginTestFlow@2d8f65a4]" name="logintestFlow" duration-ms="7138" started-at="2020-12-21T15:27:59 EST" data-provider="dp" finished-at="2020-12-21T15:28:06 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=Toma*1996, runmode=Y, username=leoalak@gmail.com}]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="60" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
+      <class name="FlowLuCRMTestCases.practice">
+        <test-method status="PASS" signature="BS()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="BS" is-config="true" duration-ms="34" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logintestFlow -->
-      </class> <!-- FlowLuCRMTestCases.LoginTestFlow -->
-    </test> <!-- Flow lu CRM Login Test -->
-    <test name="Flow lu CRM Add Opportunity Test" duration-ms="7258" started-at="2020-12-21T15:28:06 EST" finished-at="2020-12-21T15:28:13 EST">
-      <class name="FlowLuCRMTestCases.AddOpportunityTestFlow">
-        <test-method status="PASS" signature="addopportunityTestFlow(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.AddOpportunityTestFlow@4d50efb8]" name="addopportunityTestFlow" duration-ms="7239" started-at="2020-12-21T15:28:06 EST" data-provider="dp" finished-at="2020-12-21T15:28:13 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{oraganization=iskcon, phone=900000.0, website=www.google.com, email=a@gmail.com, amount=100.0, contactperson=bluetoothprabu, source=Partner, title=None}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- BS -->
+        <test-method status="PASS" signature="BT()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="BT" is-config="true" duration-ms="1" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addopportunityTestFlow -->
-      </class> <!-- FlowLuCRMTestCases.AddOpportunityTestFlow -->
-    </test> <!-- Flow lu CRM Add Opportunity Test -->
-    <test name="Flow lu CRM Add Organization Test" duration-ms="5471" started-at="2020-12-21T15:28:13 EST" finished-at="2020-12-21T15:28:19 EST">
-      <class name="FlowLuCRMTestCases.AddOrganizationTestFlow">
-        <test-method status="PASS" signature="addorganizationTestFlow(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.AddOrganizationTestFlow@2353b3e6]" name="addorganizationTestFlow" duration-ms="5463" started-at="2020-12-21T15:28:13 EST" data-provider="dp" finished-at="2020-12-21T15:28:19 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{jobtitle=Automation Test Engineer, web=www.google.com, phone=666777.0, email=A@gmail.com, organname=Automation company, category=Partner, industry=Banking}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- BT -->
+        <test-method status="PASS" signature="BC()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="BC" is-config="true" duration-ms="1" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addorganizationTestFlow -->
-      </class> <!-- FlowLuCRMTestCases.AddOrganizationTestFlow -->
-    </test> <!-- Flow lu CRM Add Organization Test -->
-    <test name="Flow lu CRM Add Contact Test" duration-ms="1664" started-at="2020-12-21T15:28:19 EST" finished-at="2020-12-21T15:28:20 EST">
-      <class name="FlowLuCRMTestCases.AddNewContactTest">
-        <test-method status="PASS" signature="addNewContactTest(java.util.Hashtable)[pri:0, instance:FlowLuCRMTestCases.AddNewContactTest@1a1d6a08]" name="addNewContactTest" duration-ms="1660" started-at="2020-12-21T15:28:19 EST" data-provider="dp" finished-at="2020-12-21T15:28:20 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{name=Om}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- BC -->
+        <test-method status="PASS" signature="BM()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="BM" is-config="true" duration-ms="1" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewContactTest -->
-      </class> <!-- FlowLuCRMTestCases.AddNewContactTest -->
-    </test> <!-- Flow lu CRM Add Contact Test -->
-  </suite> <!-- Page Object Model -->
+        </test-method> <!-- BM -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="test1" duration-ms="4" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="AM()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="AM" is-config="true" duration-ms="0" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method status="PASS" signature="BM()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="BM" is-config="true" duration-ms="0" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="test2" duration-ms="3" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="AM()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="AM" is-config="true" duration-ms="0" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method status="PASS" signature="AC()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="AC" is-config="true" duration-ms="0" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method status="PASS" signature="AT()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="AT" is-config="true" duration-ms="0" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method status="PASS" signature="AS()[pri:0, instance:FlowLuCRMTestCases.practice@1877ab81]" name="AS" is-config="true" duration-ms="6" started-at="2020-12-23T18:04:25 EST" finished-at="2020-12-23T18:04:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- FlowLuCRMTestCases.practice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
